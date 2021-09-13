@@ -1,0 +1,117 @@
+body,html{
+  height: 100%;
+}
+
+.bg { 
+  background-image: url("../img/1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup, .signin{
+  margin-top: 30px; 
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.title{
+  text-align: center;
+  letter-spacing: 6px;
+}
+.semi-title{
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.update{
+  background-color: skyblue;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.prompterror{
+  padding: 20px 10px;
+  background-color:red;
+  color: white;
+}
+
+.promptsuccess{
+  padding: 20px 10px;
+  background-color:green;
+  color: white;
+}
+
+.button {
+    background-color:#2c3e50;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+    color: #4CAF50;
+}
+
+.button > a {
+  color: white;
+  text-decoration: none;
+}
+
+input[type=text],input[type=email], input[type=password], input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a{
+  color: orange !important;
+  text-decoration: none;
+}
